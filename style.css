@@ -44,10 +44,15 @@ body {
 @media (max-width: 768px) {
   .box {
     margin: 0 15px;
-  }
+  };
+  .qItem {
+    width:100%;
+  };
   .qItem h2 {
     font-size: 20px;
-  }
+  };
+  .answers div {
+    padding-left:10px;
 }
 .answers {
   display: flex;
